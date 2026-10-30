@@ -35,7 +35,7 @@
     {
       "type": "tg_avatar",
       "name": "Profile Checker",
-      "min": 1000,
+      "min": 1,
       "max": 10000000,
       "fields": [
         "Phone",
@@ -51,11 +51,14 @@
         "Is Member",
         "first_name",
         "last_name"
-      ]
+      ],
+      "product_id": 27,
+      "min_billable_numbers": 1000,
+      "available": true
     }
   ],
   "pricing_url": "https://numberchecker.ai/pricing",
   "maintainer": "NumberChecker",
   "license": "MIT",
-  "last_reviewed": "2026-08-18"
+  "last_reviewed": "2026-10-30"
 }
